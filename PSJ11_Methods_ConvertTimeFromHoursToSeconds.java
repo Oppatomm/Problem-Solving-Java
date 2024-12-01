@@ -11,7 +11,11 @@ public class PSJ11_Methods_ConvertTimeFromHoursToSeconds {
         System.out.print("Enter the number of hours : ");
         int hours = scanner.nextInt();
         int seconds = convertToSeconds(hours);
-        System.out.println(hours + " hours = " + seconds + " second");
+        if (hours >= 0) {
+            System.out.println(hours + " hours = " + seconds + " seconds");
+        }else {
+            System.out.println("Invalid input! Please enter a non-negative number.");
+        }
         scanner.close();
     }
 
