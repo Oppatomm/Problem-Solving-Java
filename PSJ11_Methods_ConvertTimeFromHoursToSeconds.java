@@ -5,8 +5,6 @@ public class PSJ11_Methods_ConvertTimeFromHoursToSeconds {
         return hours * 3600;
     }
 
-
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
 
