@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
-public class PSJ29_ArrayList_ConvertArraytoString {
+public class PSJ27_Array_ConvertArraytoString {
     
     public static void arraytoString (int [] array) {
         System.out.printf( "%s\n",Arrays.toString(array));
